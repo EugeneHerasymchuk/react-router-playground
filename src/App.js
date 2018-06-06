@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Loadable from 'react-loadable';
 import Loading from './components/Loading/Loading';
+import Menu from './components/Menu/Menu';
 
 class App extends Component {
   render() {
@@ -13,7 +14,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Welcome to React</h1>
+          <Menu />
         </header>
         <p className="App-intro">
           <LoadableAnotherComponent />
